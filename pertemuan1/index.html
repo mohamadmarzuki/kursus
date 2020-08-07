@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>belajar web</title>
+    <style>
+      #halaman-layout {
+        background-color: aqua;
+        border-radius: 5px;
+        color: red;
+      }
+      #halaman-layout:hover {
+        background-color: blue;
+      }
+      .tombol-layout {
+        background-color: aqua;
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- tag p = akan pindah baris perkalimat  -->
+    <div style="border: black dotted 5px; color: blue;">
+      <p>saya sedang belajar web</p>
+      <span>saya sedang belajar html</span>
+    </div>
+    <!-- tag span= kalimat memanjang sepanjang kalimat yang dituliskan -->
+    <span style="background-color: red;">belajar web dengan html </span>
+    <span style="background-color: red;">belajar web dengan html </span>
+    <span style="background-color: red;">belajar web dengan html </span>
+    <span style="background-color: red;">belajar web dengan html </span>
+
+    <!-- penggunaan div pembuatan bendera -->
+    <div style="border: black 1px solid;">
+      <div style="background-color: red; height: 50px"></div>
+      <div style="border: white solid 5px; height: 50px;"></div>
+    </div>
+    <!-- tag image= pembuatan gambar ambil dari website-->
+    <img
+      src="data:image/png;base64,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"
+      alt="bendera palestina"
+    />
+    <!-- link = jika hanya hanya menuliskan facebook.com ketika dalam folder AABC 
+    tidak ada alamat servernya maka tidak bisa dipanggil linknya -->
+    <a href="https://www.facebook.com/">pergi ke facebook</a><br /><br />
+    <!-- pembuatan tombol -->
+    <a href="layout.html">
+      <button id="halaman-layout">Halaman layout</button>
+      <button id="halaman-layout">Halaman Beranda</button>
+    </a>
+    <br /><br />
+    <button class="tombol-layout">tombol layout</button>
+    <button class="tombol-layout">tombol layout</button>
+    <button class="tombol-layout">tombol layout</button>
+    <!-- pembuatan margin dan padding -->
+    <div
+      style="width: 100px; height: 100px; background-color: red; margin: 10px;"
+    >
+      <div style="width: 30px; height: 30px; background-color: blue;"></div>
+      <div style="width: 30px; height: 30px; background-color: green;"></div>
+    </div>
+  </body>
+</html>
