@@ -1,0 +1,52 @@
+body{
+    font-family: Rowdies;
+    font-weight: bold;
+    font-size: 20px;
+}
+.box1{
+    /* display: inline-block; */
+    float: right;
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+}
+.box2{
+    float: right;
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+.box3{
+    background-color: chartreuse;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    padding: 5px;
+    border: 20px solid pink;
+}
+.container{
+    border: 1px solid black;
+    padding: 20px;
+}
+.container2{
+    margin-top: 50px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 51, 51);
+}
+/* row atu coulum di tambah reverse tampilanya akan berubah dari ke belakang */
+.account{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu-top{
+    margin-right: 5px;
+    float: right;
+}
